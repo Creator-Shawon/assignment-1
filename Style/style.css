@@ -4,17 +4,39 @@
     margin: 0;
     padding: 0;
     font-family: Fira Sans;
+    /* border: 1px solid black; */
 }
 
+/* Common Styles */
+
+.background-color {
+    background-color:#C6E4D6
+}
+
+.green-button {
+    padding: 20px 25px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+/* This Section is for Body */
 body{
     background-color: #F1F1F3; 
     padding: 0 160px;   
 }
 
+/* This section is for Header */
+
 header{
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
+    margin-bottom: 50px;
 }
 
 header button{
@@ -25,4 +47,51 @@ header button{
     border-radius: 8px;
     color: #006A50;
     font-weight: 500;
+    cursor: pointer;
+    transition: color .5s, background-color 0.5s;
 }
+
+header button:hover {
+    color: white;
+    background-color: #006A50;
+
+}
+
+
+/* Styles for Banner Section */
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    height: 560px;
+    padding: 60px;
+    column-gap: 64px;
+    margin-bottom: 160px;
+}
+
+#banner .hero-title h4 {
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+#banner .hero-title h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+#banner .hero-title {
+    width: 55%;
+    padding-right: 160px;
+}
+
+#banner .hero-image {
+    width: 45%;
+    text-align: right;
+}
+
+#banner .hero-image img {
+    width: 100%;
+}
+
