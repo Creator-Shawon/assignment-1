@@ -96,7 +96,7 @@ header button:hover {
     width: 100%;
 }
 
-#banner .green-button:hover{
+.green-button:hover{
     
     background-color: #00372a;
 }
@@ -291,4 +291,48 @@ td{
 .donation-input input::placeholder {
     text-align: center;
     font-size: 18px;
+}
+
+/* subscribe-newsletter */
+
+#subscribe-newsletter {
+    margin-bottom: 100px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 60px 160px;
+    text-align: center;
+}
+
+.subscribe-part button {
+    padding: 20px 20px;
+}
+
+.subscribe-part input {
+    width: 70%;
+    outline: none;
+    border-radius: 16px 0 0 16px;
+    border: 1px solid rgba(0, 0, 0, 0.251);
+    margin-right: -20px;
+    padding: 20px 60px;
+    font-size: 18px;
+}
+
+/* .subscribe-part input::placeholder {
+    font-size: 18px;
+} */
+
+.subscribe-part button {
+    
+        padding: 20px 60px;
+        background-color: #006A50;
+        color: white;
+        border-radius: 0 16px 16px 0;
+        font-weight: 600;
+        border: 1px solid rgba(0, 0, 0, 0.251);
+        cursor: pointer;
+        transition: color .5s, background-color 0.5s;
+        font-size: 18px;
+}
+.subscribe-part-button:hover {
+    background-color: #00372a;
 }
