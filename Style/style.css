@@ -175,3 +175,86 @@ header button:hover {
     margin-bottom: 100px;
     border: 1px solid rgba(0, 0, 0, 0.306);
 }
+/* Style - Opinion Table */
+
+#opinion-matters {
+    margin-bottom: 100px;
+}
+.opinion-table{
+    background-color: white;
+    padding: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.294);
+    border-radius: 16px;
+
+}
+
+.opinion-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 22px 24px;
+}
+
+thead>tr {
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+td{
+    border: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.select-options{
+    padding: 8px 36px;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+}
+
+.th-left {
+    text-align: left;
+    background-color: #C6E4D6;
+}
+
+.th-right {
+    text-align: right;
+    background-color: #C6E4D6;
+}
+
+.td-center {
+    text-align: center;
+}
+
+.tbody-bold {
+    font-weight: 600;
+}
+
+
+/* Styling for News Zone */
+
+.news-zone {
+    display: flex;
+    padding: 60px;
+    background-color: white;
+    column-gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.news-zone .news-image img{
+    width: 430px;
+    border-radius: 16px;
+}
+
+/* .news-zone .news-image {
+    width:
+} */
+
+#recent-news {
+    margin-bottom: 100px;
+}
+
+
