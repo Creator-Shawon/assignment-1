@@ -27,10 +27,11 @@ p {
 }
 
 .green-button {
-    padding: 25px 30px;
+    padding: 18px 30px;
     background-color: #006A50;
     color: white;
     border-radius: 8px;
+    font-size: 18px;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -144,14 +145,15 @@ header button:hover {
     height: 244px;
     background-color: white;
     border-radius: 16px;
-    padding-left: 15px;
+    padding: 24px;
     justify-content: center;
     align-items: center;
-
-}
+    }
 
 .pilar img {
-    padding: 15px;
+    width: 62px;    
+    
+
 }
 
 /* Style of Vision of Future */
@@ -315,6 +317,9 @@ td {
 
 .span-list {
     margin-bottom: 18px;
+}
+.news-description img{
+    width: 80px;
 }
 
 /* Style For Donation Section */
