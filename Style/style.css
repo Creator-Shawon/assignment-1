@@ -181,6 +181,9 @@ header button:hover {
 .future-container p {
     margin-bottom: 24px;
 }
+.future-item img{
+    width: 90px;
+}
 
 .future-item h2 {
     margin-bottom: 24px;
